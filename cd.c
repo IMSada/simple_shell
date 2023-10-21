@@ -81,7 +81,7 @@ void cd_to(data_shell *datash)
 	free(cp_pwd);
 	free(cp_dir);
 
-	dash->status = 0;
+	datash->status = 0;
 
 	chdir(dir);
 }
